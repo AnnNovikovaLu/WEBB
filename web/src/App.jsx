@@ -193,7 +193,7 @@ class Modal extends Component {
   }
 }
 
-class Footer extends Component {
+/* class Footer extends Component {
   render() {
     return (
       <footer className="footer">
@@ -212,7 +212,27 @@ class Footer extends Component {
       </footer>
     );
   }
-}
+} */
+  class Footer extends Component {
+    render() {
+      return (
+        <footer className="footer">
+          <p>We work 24/7 to make your life happier</p>
+          <p>
+            <a href="tel" className="footer-link">
+              Телефон: +7 (978) 253-148
+            </a>
+          </p>
+          <p>
+            <a href="mailto:tour@gmail.com" className="footer-link">
+              Email: tour@gmail.com
+            </a>
+          </p>
+          <p>TOURALLTHEWORLD</p>
+        </footer>
+      );
+    }
+  }
 
 // Экспорт основного компонента
 export default App;
